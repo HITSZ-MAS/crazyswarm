@@ -6,9 +6,9 @@ ros_ws/src/CMakeLists.txt
 *~
 *.mexa64
 .vscode/
-.idea
-.git
-.github
+.idea/
+.git/
+.github/
 # james's symlinks :)
 cfs.yaml
 firm
