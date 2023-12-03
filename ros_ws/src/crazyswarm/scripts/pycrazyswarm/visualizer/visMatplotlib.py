@@ -10,8 +10,8 @@ class VisMatplotlib:
     def __init__(self):
         self.fig = plt.figure()
         self.ax = self.fig.add_subplot(111, projection='3d')
-        self.ax.set_xlim([-5, 5])
-        self.ax.set_ylim([-5, 5])
+        self.ax.set_xlim([-3, 3])
+        self.ax.set_ylim([-2, 6])
         self.ax.set_zlim([0, 3])
         self.ax.set_xlabel("X")
         self.ax.set_ylabel("Y")

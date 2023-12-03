@@ -1,0 +1,8 @@
+prefix=/home/ypp/Concentration/crazyswarm/build/devel
+
+Name: libobjecttracker
+Description: Description of libobjecttracker
+Version: 0.0.1
+Cflags: -I/home/ypp/Concentration/crazyswarm/ros_ws/src/externalDependencies/libobjecttracker/include
+Libs: -L${prefix}/lib -llibobjecttracker
+Requires: 

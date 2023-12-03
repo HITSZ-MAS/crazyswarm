@@ -1,0 +1,254 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "devel/lib/libViconDataStreamSDK_CPP.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_definitions",
+			"target_compile_definitions",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/CMakeLists.txt",
+			"crazyswarm/externalDependencies/libmotioncapture/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC  "
+				},
+				{
+					"backtrace" : 2,
+					"fragment" : "-pthread"
+				},
+				{
+					"fragment" : "-std=c++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_ATOMIC_DYN_LINK"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "BOOST_REGEX_NO_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_SYSTEM_DYN_LINK"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "BOOST_THREAD_DYN_LINK"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ENABLE_VICON"
+				},
+				{
+					"define" : "ROS_BUILD_SHARED_LIBS=1"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "_BUILD_STATIC_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"id" : "ViconDataStreamSDK_CPP::@0ae2fbe6ab357a553c79",
+	"name" : "ViconDataStreamSDK_CPP",
+	"nameOnDisk" : "libViconDataStreamSDK_CPP.a",
+	"paths" : 
+	{
+		"build" : "crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk",
+		"source" : "crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/CoreClient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/CoreClientTimingLog.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCoreUtils/ClientUtils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCoreUtils/AxisMapping.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/WirelessConfiguration.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconCGStreamClientSDK/CGClient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconCGStreamClient/ViconCGStreamClient.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconCGStreamClient/CGStreamReaderWriter.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconCGStreamClient/ViconCGStreamBayer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP/DataStreamClient.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

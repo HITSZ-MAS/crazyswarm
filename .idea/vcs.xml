@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/crazyflie-firmware" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ros_ws/src/crazyflie_tools" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ros_ws/src/crazyflie_tools/crazyflie_cpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/pybind11" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ros_ws/src/externalDependencies/libobjecttracker" vcs="Git" />
+  </component>
+</project>

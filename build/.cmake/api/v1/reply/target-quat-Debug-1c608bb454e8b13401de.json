@@ -1,0 +1,200 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "devel/lib/libquat.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeLists.txt",
+			"crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 188,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 192,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC  "
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"define" : "BOOST_REGEX_NO_LIB"
+				},
+				{
+					"define" : "ENABLE_OPTITRACK"
+				},
+				{
+					"define" : "ENABLE_OPTITRACK_CLOSED_SOURCE"
+				},
+				{
+					"define" : "ENABLE_QUALISYS"
+				},
+				{
+					"define" : "ENABLE_VICON"
+				},
+				{
+					"define" : "ENABLE_VRPN"
+				},
+				{
+					"define" : "ROS_BUILD_SHARED_LIBS=1"
+				},
+				{
+					"define" : "_BUILD_STATIC_LIB"
+				},
+				{
+					"define" : "quat_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Library"
+	},
+	"id" : "quat::@9a0f10b64b66da16895e",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "quat",
+	"nameOnDisk" : "libquat.so",
+	"paths" : 
+	{
+		"build" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat",
+		"source" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/matrix.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/quat.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/vector.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/xyzquat.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/quat.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

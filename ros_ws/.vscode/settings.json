@@ -1,0 +1,17 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ypp/Concentration/crazyswarm/ros_ws/devel/lib/python3/dist-packages",
+        "/home/ypp/crazyswarm/ros_ws/devel/lib/python3/dist-packages",
+        "/home/ypp/workspace/devel/lib/python3/dist-packages",
+        "/home/ypp/mrs_workspace/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ypp/Concentration/crazyswarm/ros_ws/devel/lib/python3/dist-packages",
+        "/home/ypp/crazyswarm/ros_ws/devel/lib/python3/dist-packages",
+        "/home/ypp/workspace/devel/lib/python3/dist-packages",
+        "/home/ypp/mrs_workspace/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "cmake.sourceDirectory": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools"
+}

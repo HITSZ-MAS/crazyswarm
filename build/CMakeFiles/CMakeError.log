@@ -1,0 +1,58 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/ypp/Concentration/crazyswarm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5c54e && [1/2] Building C object CMakeFiles/cmTC_5c54e.dir/src.c.o
+[2/2] Linking C executable cmTC_5c54e
+FAILED: cmTC_5c54e 
+: && /usr/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD  -rdynamic CMakeFiles/cmTC_5c54e.dir/src.c.o  -o cmTC_5c54e   && :
+/usr/bin/ld: CMakeFiles/cmTC_5c54e.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/ypp/Concentration/crazyswarm/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_25887 && [1/2] Building C object CMakeFiles/cmTC_25887.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_25887
+FAILED: cmTC_25887 
+: && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=pthread_create  -rdynamic CMakeFiles/cmTC_25887.dir/CheckFunctionExists.c.o  -o cmTC_25887  -lpthreads && :
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Determining if the Perl module Parse::RecDescent exists failed with the following error output:
+Can't locate Parse/RecDescent.pm in @INC (you may need to install the Parse::RecDescent module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at -e line 1.
+BEGIN failed--compilation aborted at -e line 1.
+
+
+Determining if the Perl module Parse::RecDescent exists failed with the following error output:
+Can't locate Parse/RecDescent.pm in @INC (you may need to install the Parse::RecDescent module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.30.0 /usr/local/share/perl/5.30.0 /usr/lib/x86_64-linux-gnu/perl5/5.30 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.30 /usr/share/perl/5.30 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at -e line 1.
+BEGIN failed--compilation aborted at -e line 1.
+
+

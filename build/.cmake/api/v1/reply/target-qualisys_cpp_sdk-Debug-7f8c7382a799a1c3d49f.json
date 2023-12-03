@@ -1,0 +1,233 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "devel/lib/libqualisys_cpp_sdk-d.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_install",
+			"install",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeLists.txt",
+			"/opt/ros/noetic/share/catkin/cmake/custom_install.cmake",
+			"crazyswarm/externalDependencies/libmotioncapture/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 13,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 19,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 68,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 79,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 99,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 51,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC  "
+				},
+				{
+					"fragment" : "-std=c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "BOOST_REGEX_NO_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ENABLE_OPTITRACK"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ENABLE_OPTITRACK_CLOSED_SOURCE"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "ENABLE_QUALISYS"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "ENABLE_VICON"
+				},
+				{
+					"define" : "ROS_BUILD_SHARED_LIBS=1"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_BUILD_STATIC_LIB"
+				},
+				{
+					"define" : "qualisys_cpp_sdk_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"id" : "qualisys_cpp_sdk::@e5d82f9bea7d6754498e",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 3,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "qualisys_cpp_sdk",
+	"nameOnDisk" : "libqualisys_cpp_sdk-d.so",
+	"paths" : 
+	{
+		"build" : "crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk",
+		"source" : "crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/Markup.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/Network.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/RTPacket.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

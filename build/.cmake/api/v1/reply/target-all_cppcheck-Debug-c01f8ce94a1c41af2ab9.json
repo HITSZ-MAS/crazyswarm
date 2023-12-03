@@ -1,0 +1,47 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include"
+		],
+		"files" : 
+		[
+			"crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/cmake/CppcheckTargets.cmake",
+			"crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "all_cppcheck::@2c6e7a87b2fc32e34c09",
+	"name" : "all_cppcheck",
+	"paths" : 
+	{
+		"build" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn",
+		"source" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

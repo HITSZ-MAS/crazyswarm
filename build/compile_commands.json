@@ -1,0 +1,517 @@
+[
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_main_EXPORTS -isystem /usr/src/googletest/googlemock/include -isystem /usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -pthread -DGTEST_HAS_PTHREAD=1 -std=c++11 -o gtest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/src/googletest/googlemock/src/gmock_main.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock_main.cc"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgmock_EXPORTS -I/usr/src/googletest/googlemock/include -I/usr/src/googletest/googlemock -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -pthread -DGTEST_HAS_PTHREAD=1 -std=c++11 -o gtest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/src/googletest/googlemock/src/gmock-all.cc",
+  "file": "/usr/src/googletest/googlemock/src/gmock-all.cc"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_main_EXPORTS -isystem /usr/src/googletest/googletest/include -isystem /usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -pthread -DGTEST_HAS_PTHREAD=1 -std=c++11 -o gtest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/src/googletest/googletest/src/gtest_main.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest_main.cc"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DGTEST_CREATE_SHARED_LIBRARY=1 -Dgtest_EXPORTS -I/usr/src/googletest/googletest/include -I/usr/src/googletest/googletest  -g -fPIC   -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -pthread -std=c++11 -o gtest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/src/googletest/googletest/src/gtest-all.cc",
+  "file": "/usr/src/googletest/googletest/src/gtest-all.cc"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DROS_BUILD_SHARED_LIBS=1 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include  -g   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/scan.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/scan.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DROS_BUILD_SHARED_LIBS=1 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include  -g   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/listParams.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/listParams.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DROS_BUILD_SHARED_LIBS=1 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include  -g   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/listLogVariables.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/listLogVariables.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DROS_BUILD_SHARED_LIBS=1 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include  -g   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/listMemories.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/listMemories.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DROS_BUILD_SHARED_LIBS=1 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include  -g   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/CMakeFiles/comCheck.dir/src/comCheck.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/comCheck.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/comCheck.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DROS_BUILD_SHARED_LIBS=1 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include  -g   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/reboot.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/reboot.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DROS_BUILD_SHARED_LIBS=1 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include  -g   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/battery.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/battery.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DROS_BUILD_SHARED_LIBS=1 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include  -g   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/version.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/version.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DROS_BUILD_SHARED_LIBS=1 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include  -g   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/console.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/console.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DROS_BUILD_SHARED_LIBS=1 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include  -g   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/log.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/log.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DROS_BUILD_SHARED_LIBS=1 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include  -g   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/CMakeFiles/flash.dir/src/flash.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/flash.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/flash.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DROS_BUILD_SHARED_LIBS=1 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include  -g   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/CMakeFiles/downloadUSDLogfile.dir/src/downloadUSDLogfile.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/downloadUSDLogfile.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/downloadUSDLogfile.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DROS_BUILD_SHARED_LIBS=1 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include  -g   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/CMakeFiles/setParam.dir/src/setParam.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/setParam.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/src/setParam.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DROS_BUILD_SHARED_LIBS=1 -Dcrazyflie_cpp_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include/crazyflie_cpp   -std=c++11 -g -fPIC   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/USBDevice.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/src/USBDevice.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/src/USBDevice.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DROS_BUILD_SHARED_LIBS=1 -Dcrazyflie_cpp_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include/crazyflie_cpp   -std=c++11 -g -fPIC   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/Crazyradio.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/src/Crazyradio.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/src/Crazyradio.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DROS_BUILD_SHARED_LIBS=1 -Dcrazyflie_cpp_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include/crazyflie_cpp   -std=c++11 -g -fPIC   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/CrazyflieUSB.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/src/CrazyflieUSB.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/src/CrazyflieUSB.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DROS_BUILD_SHARED_LIBS=1 -Dcrazyflie_cpp_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include/crazyflie_cpp   -std=c++11 -g -fPIC   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/Crazyflie.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/src/Crazyflie.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/src/Crazyflie.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DROS_BUILD_SHARED_LIBS=1 -Dcrazyflie_cpp_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include/crazyflie_cpp   -std=c++11 -g -fPIC   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/crtp.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/src/crtp.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/src/crtp.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DROS_BUILD_SHARED_LIBS=1 -Dcrazyflie_cpp_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include/crazyflie_cpp   -std=c++11 -g -fPIC   -Wall -Wextra -Werror -std=c++11 -o crazyflie_tools/crazyflie_cpp/CMakeFiles/crazyflie_cpp.dir/src/ITransport.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/src/ITransport.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/src/ITransport.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROS_BUILD_SHARED_LIBS=1 -Dlibobjecttracker_EXPORTS -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -I/home/ypp/Concentration/crazyswarm/ros_ws/src/externalDependencies/libobjecttracker/include -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/pcl-1.10 -isystem /usr/include/eigen3 -isystem /usr/include/ni -isystem /usr/include/openni2    -g -fPIC   -std=gnu++14 -o externalDependencies/libobjecttracker/CMakeFiles/libobjecttracker.dir/src/object_tracker.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/externalDependencies/libobjecttracker/src/object_tracker.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/externalDependencies/libobjecttracker/src/object_tracker.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"crazyswarm\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -Idevel/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/externalDependencies/libobjecttracker/include -I/home/ypp/mrs_workspace/src/uav_core/ros_packages/thirdparty/tf2/tf2/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/../externalDependencies/libobjecttracker/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/../../../crazyflie-firmware/src/modules/interface -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -g   -std=gnu++14 -o crazyswarm/CMakeFiles/mocap_helper.dir/src/mocap_helper.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/src/mocap_helper.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/src/mocap_helper.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"crazyswarm\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -Idevel/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/externalDependencies/libobjecttracker/include -I/home/ypp/mrs_workspace/src/uav_core/ros_packages/thirdparty/tf2/tf2/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/../externalDependencies/libobjecttracker/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/../../../crazyflie-firmware/src/modules/interface -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -g   -std=gnu++14 -o crazyswarm/CMakeFiles/crazyswarm_server.dir/src/crazyswarm_server.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/src/crazyswarm_server.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/src/crazyswarm_server.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DDISABLE_LIBUSB_1_0 -DDISABLE_PCAP -DDISABLE_PNG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"crazyswarm\\\" -Dqh_QHpointer -DvtkRenderingContext2D_AUTOINIT=\"1(vtkRenderingContextOpenGL2)\" -DvtkRenderingCore_AUTOINIT=\"3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)\" -Idevel/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyflie_tools/crazyflie_cpp/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/externalDependencies/libobjecttracker/include -I/home/ypp/mrs_workspace/src/uav_core/ros_packages/thirdparty/tf2/tf2/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/../externalDependencies/libobjecttracker/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/../../../crazyflie-firmware/src/modules/interface -isystem /usr/include/vtk-7.1 -isystem /usr/include/freetype2 -isystem /usr/include/eigen3 -isystem /usr/include/pcl-1.10 -isystem /usr/include/ni -isystem /usr/include/openni2    -g   -std=gnu++14 -o crazyswarm/CMakeFiles/crazyswarm_teleop.dir/src/crazyswarm_teleop.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/src/crazyswarm_teleop.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/src/crazyswarm_teleop.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/include -I/home/ypp/anaconda3/include/eigen3 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIE   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/CMakeFiles/motioncapture_example.dir/examples/main.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/examples/main.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/examples/main.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dmotioncapture_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/include -I/home/ypp/anaconda3/include/eigen3 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP -isystem /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/pybind11/include -isystem /home/ypp/anaconda3/include/python3.9  -g -fPIC -fvisibility=hidden   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/CMakeFiles/motioncapture.dir/src/python_bindings.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/python_bindings.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/python_bindings.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dlibmotioncapture_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/include -I/home/ypp/anaconda3/include/eigen3 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/motioncapture.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/motioncapture.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/motioncapture.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dlibmotioncapture_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/include -I/home/ypp/anaconda3/include/eigen3 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/testmocap.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/testmocap.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/testmocap.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dlibmotioncapture_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/include -I/home/ypp/anaconda3/include/eigen3 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/vicon.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/vicon.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/vicon.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dlibmotioncapture_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/include -I/home/ypp/anaconda3/include/eigen3 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/optitrack.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/optitrack.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/optitrack.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dlibmotioncapture_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/include -I/home/ypp/anaconda3/include/eigen3 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/optitrack_closed_source.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/optitrack_closed_source.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/optitrack_closed_source.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dlibmotioncapture_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/include -I/home/ypp/anaconda3/include/eigen3 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/qualisys.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/qualisys.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/qualisys.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dlibmotioncapture_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/include -I/home/ypp/anaconda3/include/eigen3 -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/include -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/CMakeFiles/libmotioncapture.dir/src/vrpn.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/vrpn.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/src/vrpn.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIE   -std=c++11 -o crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPPTest.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPPTest/ViconDataStreamSDK_CPPTest.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPPTest/ViconDataStreamSDK_CPPTest.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPPTest/ViconDataStreamSDK_CPPTest.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -pthread -std=c++11 -o crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/CoreClient.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/CoreClient.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/CoreClient.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -pthread -std=c++11 -o crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/CoreClientTimingLog.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/CoreClientTimingLog.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/CoreClientTimingLog.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -pthread -std=c++11 -o crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCoreUtils/ClientUtils.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCoreUtils/ClientUtils.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCoreUtils/ClientUtils.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -pthread -std=c++11 -o crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCoreUtils/AxisMapping.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCoreUtils/AxisMapping.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCoreUtils/AxisMapping.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -pthread -std=c++11 -o crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/WirelessConfiguration.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/WirelessConfiguration.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDKCore/WirelessConfiguration.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -pthread -std=c++11 -o crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconCGStreamClientSDK/CGClient.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconCGStreamClientSDK/CGClient.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconCGStreamClientSDK/CGClient.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -pthread -std=c++11 -o crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconCGStreamClient/ViconCGStreamClient.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconCGStreamClient/ViconCGStreamClient.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconCGStreamClient/ViconCGStreamClient.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -pthread -std=c++11 -o crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconCGStreamClient/CGStreamReaderWriter.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconCGStreamClient/CGStreamReaderWriter.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconCGStreamClient/CGStreamReaderWriter.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -pthread -std=c++11 -o crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconCGStreamClient/ViconCGStreamBayer.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconCGStreamClient/ViconCGStreamBayer.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconCGStreamClient/ViconCGStreamBayer.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP  -g -fPIC   -pthread -std=c++11 -o crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/CMakeFiles/ViconDataStreamSDK_CPP.dir/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP/DataStreamClient.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP/DataStreamClient.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP/DataStreamClient.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/include   -Wall -Wextra -g -fPIE   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/CMakeFiles/sampleClient.dir/samples/SampleClient/SampleClient.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/samples/SampleClient/SampleClient.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/samples/SampleClient/SampleClient.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/include   -Wall -Wextra -g -fPIE   -pthread -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/CMakeFiles/packetClient.dir/src/main.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/src/main.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/src/main.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_ALL_NO_LIB -DBOOST_ATOMIC_DYN_LINK -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/include   -Wall -Wextra -g -fPIE   -pthread -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/CMakeFiles/packetClient.dir/samples/PacketClient/PacketClient.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/samples/PacketClient/PacketClient.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/NatNetSDKCrossplatform/samples/PacketClient/PacketClient.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dqualisys_cpp_sdk_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/Markup.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/Markup.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/Markup.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dqualisys_cpp_sdk_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/Network.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/Network.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/Network.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dqualisys_cpp_sdk_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/RTPacket.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/RTPacket.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/RTPacket.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dqualisys_cpp_sdk_EXPORTS -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/CMakeFiles/qualisys_cpp_sdk.dir/RTProtocol.cpp.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/qualisys_cpp_sdk/RTProtocol.cpp"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Analog.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Analog.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Analog.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Analog_Output.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Analog_Output.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Analog_Output.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Assert.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Assert.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Assert.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Auxiliary_Logger.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Auxiliary_Logger.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Auxiliary_Logger.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_BaseClass.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_BaseClass.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_BaseClass.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Button.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Button.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Button.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Connection.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Connection.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Connection.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Dial.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Dial.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Dial.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_EndpointContainer.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_EndpointContainer.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_EndpointContainer.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FileConnection.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FileConnection.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FileConnection.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FileController.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FileController.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FileController.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_ForceDevice.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_ForceDevice.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_ForceDevice.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Forwarder.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Forwarder.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Forwarder.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_ForwarderController.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_ForwarderController.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_ForwarderController.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_FunctionGenerator.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FunctionGenerator.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FunctionGenerator.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Imager.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Imager.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Imager.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_LamportClock.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_LamportClock.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_LamportClock.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Mutex.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Mutex.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Mutex.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Poser.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Poser.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Poser.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_RedundantTransmission.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_RedundantTransmission.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_RedundantTransmission.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Serial.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Serial.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Serial.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_SerialPort.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_SerialPort.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_SerialPort.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Shared.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Shared.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Shared.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_SharedObject.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_SharedObject.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_SharedObject.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Sound.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Sound.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Sound.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Text.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Text.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Text.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Thread.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Thread.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Thread.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/g++  -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -DVRPN_USING_CMAKE=\\\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\\\" -D_BUILD_STATIC_LIB -Dvrpn_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -std=c++14 -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeFiles/vrpn.dir/vrpn_Tracker.C.o -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Tracker.C",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Tracker.C"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/gcc -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dquat_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/matrix.c.o   -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/matrix.c",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/matrix.c"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/gcc -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dquat_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/quat.c.o   -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/quat.c",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/quat.c"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/gcc -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dquat_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/vector.c.o   -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/vector.c",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/vector.c"
+},
+
+{
+  "directory": "/home/ypp/Concentration/crazyswarm/build",
+  "command": "/usr/bin/gcc -DBOOST_DATE_TIME_NO_LIB -DBOOST_REGEX_NO_LIB -DENABLE_OPTITRACK -DENABLE_OPTITRACK_CLOSED_SOURCE -DENABLE_QUALISYS -DENABLE_VICON -DENABLE_VRPN -DROS_BUILD_SHARED_LIBS=1 -D_BUILD_STATIC_LIB -Dquat_EXPORTS -Icrazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib -I/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat  -g -fPIC   -o crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/CMakeFiles/quat.dir/xyzquat.c.o   -c /home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/xyzquat.c",
+  "file": "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat/xyzquat.c"
+}
+]

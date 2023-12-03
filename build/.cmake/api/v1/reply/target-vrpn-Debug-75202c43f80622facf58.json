@@ -1,0 +1,687 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "devel/lib/libvrpn.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/CMakeLists.txt",
+			"crazyswarm/externalDependencies/libmotioncapture/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1340,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1341,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 19,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 99,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 116,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 978,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 188,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 192,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -fPIC  "
+				},
+				{
+					"fragment" : "-std=c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "BOOST_REGEX_NO_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ENABLE_OPTITRACK"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ENABLE_OPTITRACK_CLOSED_SOURCE"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "ENABLE_QUALISYS"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "ENABLE_VICON"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "ENABLE_VRPN"
+				},
+				{
+					"define" : "ROS_BUILD_SHARED_LIBS=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "VRPN_USING_CMAKE=\"/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h\""
+				},
+				{
+					"backtrace" : 4,
+					"define" : "_BUILD_STATIC_LIB"
+				},
+				{
+					"define" : "vrpn_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 11,
+					"path" : "/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/atmellib"
+				},
+				{
+					"backtrace" : 12,
+					"path" : "/home/ypp/Concentration/crazyswarm/ros_ws/src/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/quat"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "quat::@9a0f10b64b66da16895e"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Library"
+	},
+	"id" : "vrpn::@2c6e7a87b2fc32e34c09",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/ypp/Concentration/crazyswarm/build/devel/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../../devel/lib/libquat.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "vrpn",
+	"nameOnDisk" : "libvrpn.so",
+	"paths" : 
+	{
+		"build" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn",
+		"source" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Analog.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Analog_Output.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Assert.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Auxiliary_Logger.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_BaseClass.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Button.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Connection.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Dial.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_EndpointContainer.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FileConnection.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FileController.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_ForceDevice.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Forwarder.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_ForwarderController.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FunctionGenerator.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Imager.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_LamportClock.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Mutex.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Poser.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_RedundantTransmission.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Serial.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_SerialPort.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Shared.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_SharedObject.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Sound.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Text.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Thread.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Tracker.C",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "/home/ypp/Concentration/crazyswarm/build/crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Configure.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Analog.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Analog_Output.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Assert.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Auxiliary_Logger.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_BaseClass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Button.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Connection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_ConnectionPtr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Dial.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_EndpointContainer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FileConnection.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FileController.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_ForceDevice.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_ForwarderController.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Forwarder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_FunctionGenerator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Imager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_LamportClock.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Log.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_MainloopContainer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_MainloopObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Mutex.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_OwningPtr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_RedundantTransmission.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_SendTextMessageStreamProxy.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Serial.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_SerialPort.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Shared.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_SharedObject.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Sound.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Text.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Thread.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Tracker.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_Types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "crazyswarm/externalDependencies/libmotioncapture/deps/vrpn/vrpn_WindowsH.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
