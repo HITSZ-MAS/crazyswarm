@@ -5,6 +5,10 @@ ros_ws/src/CMakeLists.txt
 *.pyc
 *~
 *.mexa64
+.vscode/
+.idea
+.git
+.github
 # james's symlinks :)
 cfs.yaml
 firm
