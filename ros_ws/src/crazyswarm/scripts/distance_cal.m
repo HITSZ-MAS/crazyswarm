@@ -59,18 +59,20 @@ for i = 1:length(drone_files)
     % 绘制位置图
     subplot(2, 1, 1);
     plot(time, position, 'LineWidth', 2);  % 增加线条宽度
-    xlabel('Time [s]', 'FontWeight', 'bold', 'FontSize', 12);
-    ylabel('Position [m]', 'FontWeight', 'bold', 'FontSize', 12);
+    xlabel('Time [s]', 'FontWeight', 'bold', 'FontSize', 14);
+    ylabel('Position [m]', 'FontWeight', 'bold', 'FontSize', 14examssx);
     title(sprintf('无人机 %d 的位置', i), 'FontWeight', 'bold', 'FontSize', 14);
-    legend('X', 'Y', 'Z', 'FontWeight', 'bold', 'FontSize', 10);
+    legend('V_x', 'V_y', 'V_z', 'FontWeight', 'bold', 'FontSize', 14, 'Orientation', 'horizontal');
+
 
     % 绘制速度图
     subplot(2, 1, 2);
     plot(time, velocity, 'LineWidth', 2);  % 增加线条宽度
-    xlabel('Time [s]', 'FontWeight', 'bold', 'FontSize', 12);
-    ylabel('Velocity [m/s]', 'FontWeight', 'bold', 'FontSize', 12);
+    xlabel('Time [s]', 'FontWeight', 'bold', 'FontSize', 14);
+    ylabel('Velocity [m/s]', 'FontWeight', 'bold', 'FontSize', 14);
     title(sprintf('无人机 %d 的速度', i), 'FontWeight', 'bold', 'FontSize', 14);
-    legend('V_x', 'V_y', 'V_z', 'FontWeight', 'bold', 'FontSize', 10);
+    legend('V_x', 'V_y', 'V_z', 'FontWeight', 'bold', 'FontSize', 14, 'Orientation', 'horizontal');
+
 
     % 保存图形
     saveas(gcf, sprintf('drone_%d.png', i));
